@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'git@github.com:rburger/RBFoundation.git', :tag => 'v1.0.0' }
   s.description = 'Standard toolset classes and categories for internal use only.'
   s.platform = :ios
-  s.source_files = 'Classes', 'Classes/**/*.{h,m}'
+  s.source_files = 'RBFoundation', 'RBFoundation/**/*.{h,m}'
   s.requires_arc = true
   s.dependency 'ASIHTTPRequest'
   s.dependency 'SBJson'
